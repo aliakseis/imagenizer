@@ -209,4 +209,6 @@ int main()
     cv::imshow("demo", demo);
 
     cv::waitKey();
+
+    cv::imwrite("output.jpg", demo);
 }
